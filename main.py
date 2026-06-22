@@ -1,7 +1,5 @@
 import requests
 
-url = "https://bidplus.gem.gov.in/all-bids"
-
-response = requests.get(url)
+response = requests.get("https://www.google.com")
 
 print(response.status_code)
